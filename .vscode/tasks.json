@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "../../../../../../../AppData/Roaming/Code/User/workspaceStorage/b70bf4cec967328f56a0a0f87c0670b5/ms-dotnettools.csdevkit/MyBooks.sln",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "../../../../../../../AppData/Roaming/Code/User/workspaceStorage/b70bf4cec967328f56a0a0f87c0670b5/ms-dotnettools.csdevkit/MyBooks.sln",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "--project",
+                "../../../../../../../AppData/Roaming/Code/User/workspaceStorage/b70bf4cec967328f56a0a0f87c0670b5/ms-dotnettools.csdevkit/MyBooks.sln"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
