@@ -1,17 +1,25 @@
 using Microsoft.EntityFrameworkCore;
 using MyBooks.Data;
-
+using DotNetEnv;
 var builder = WebApplication.CreateBuilder(args);
+DotNetEnv.Env.Load();
+// Console.WriteLine("Connection string: " + Environment.GetEnvironmentVariable("MYBOOKS_DB"));
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 ServerVersion serverVersion = new MariaDbServerVersion(new Version(10, 4, 32));
+string connStr = Environment.GetEnvironmentVariable("MYBOOKS_DB");
 
-builder.Services.AddDbContext<MyBooksDbContext>(options =>
- options.UseMySql(builder.Configuration.GetConnectionString("MyBooksDb"), serverVersion)
- .LogTo(Console.WriteLine, LogLevel.Information)
+// builder.Services.AddDbContext<MyBooksDbContext>(options =>
+//  options.UseMySql(builder.Configuration.GetConnectionString("connStr"), serverVersion)
+//  .LogTo(Console.WriteLine, LogLevel.Information)
 //  .EnableSensitiveDataLogging()
 //  .EnableDetailedErrors()
+// );
+builder.Services.AddDbContext<MyBooksDbContext>(options =>
+    options.UseMySql(connStr, serverVersion)
+           .LogTo(Console.WriteLine, LogLevel.Information)
+           //Use the following line to enable sensitive data logging
 );
 
 var app = builder.Build();

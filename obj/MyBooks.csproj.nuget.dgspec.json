@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yemzzy\\Desktop\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\MyBooks.csproj": {}
+    "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\MyBooks.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yemzzy\\Desktop\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\MyBooks.csproj": {
+    "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\MyBooks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yemzzy\\Desktop\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\MyBooks.csproj",
+        "projectUniqueName": "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\MyBooks.csproj",
         "projectName": "MyBooks",
-        "projectPath": "C:\\Users\\Yemzzy\\Desktop\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\MyBooks.csproj",
+        "projectPath": "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\MyBooks.csproj",
         "packagesPath": "C:\\Users\\Yemzzy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yemzzy\\Desktop\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\obj\\",
+        "outputPath": "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
