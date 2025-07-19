@@ -39,10 +39,12 @@
                 <input asp-for="Book.Published" class="form-control" />
                 <span asp-validation-for="Book.Published" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            @* <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+            </div> *@
+        </form><br>
+         <p class="btn btn-danger">Changes cannot be saved</p><br>
+          <input type="submit" value="Save" class="btn btn-primary" />
     </div>
 </div>
 

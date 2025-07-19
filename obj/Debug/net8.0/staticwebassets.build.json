@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sIbRFBIdM3lQHd0hVWF1h32WXPMl80+Q24jnFUTwZs0=",
+  "Hash": "DLgFymRvej6818CFCEFjU2Q2ZZaReBLUaFxdLsyVg1U=",
   "Source": "MyBooks",
   "BasePath": "_content/MyBooks",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "t5iz9583ct",
-      "Integrity": "T5zHNOuP9MrDInLmi+56vIqwR0WqNtwZIJN0wvQ7UDI=",
+      "Fingerprint": "88ixl6ejw5",
+      "Integrity": "eHjoVbWzk6KE80vtKl6A1U0F3tbwx/vA4pr1CYuau4A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyBooks.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "t5iz9583ct",
-      "Integrity": "T5zHNOuP9MrDInLmi+56vIqwR0WqNtwZIJN0wvQ7UDI=",
+      "Fingerprint": "88ixl6ejw5",
+      "Integrity": "eHjoVbWzk6KE80vtKl6A1U0F3tbwx/vA4pr1CYuau4A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyBooks.bundle.scp.css"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c59tezgtfa",
-      "Integrity": "cLL62Wwd/AqxCa9vIPCeEtAGM0qOEiLtOpYxWFmrfsM=",
+      "Fingerprint": "ksaknobw3j",
+      "Integrity": "XAV4YCXgg8bX5XkQPw/fxoI1ELspulLlJjxAtRLSX8Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1321,51 +1321,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c59tezgtfa.css",
-      "AssetFile": "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "512"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cLL62Wwd/AqxCa9vIPCeEtAGM0qOEiLtOpYxWFmrfsM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 17:34:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c59tezgtfa"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-cLL62Wwd/AqxCa9vIPCeEtAGM0qOEiLtOpYxWFmrfsM="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1376,7 +1331,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "512"
+          "Value": "739"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +1339,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cLL62Wwd/AqxCa9vIPCeEtAGM0qOEiLtOpYxWFmrfsM=\""
+          "Value": "\"XAV4YCXgg8bX5XkQPw/fxoI1ELspulLlJjxAtRLSX8Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Mar 2025 17:34:21 GMT"
+          "Value": "Sat, 19 Jul 2025 07:06:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,7 +1353,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cLL62Wwd/AqxCa9vIPCeEtAGM0qOEiLtOpYxWFmrfsM="
+          "Value": "sha256-XAV4YCXgg8bX5XkQPw/fxoI1ELspulLlJjxAtRLSX8Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ksaknobw3j.css",
+      "AssetFile": "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "739"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XAV4YCXgg8bX5XkQPw/fxoI1ELspulLlJjxAtRLSX8Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 07:06:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ksaknobw3j"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XAV4YCXgg8bX5XkQPw/fxoI1ELspulLlJjxAtRLSX8Y="
         }
       ]
     },
@@ -6241,6 +6241,96 @@
       ]
     },
     {
+      "Route": "MyBooks.88ixl6ejw5.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyBooks.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eHjoVbWzk6KE80vtKl6A1U0F3tbwx/vA4pr1CYuau4A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 06:56:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "88ixl6ejw5"
+        },
+        {
+          "Name": "label",
+          "Value": "MyBooks.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eHjoVbWzk6KE80vtKl6A1U0F3tbwx/vA4pr1CYuau4A="
+        }
+      ]
+    },
+    {
+      "Route": "MyBooks.88ixl6ejw5.styles.css",
+      "AssetFile": "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyBooks.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eHjoVbWzk6KE80vtKl6A1U0F3tbwx/vA4pr1CYuau4A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 06:56:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "88ixl6ejw5"
+        },
+        {
+          "Name": "label",
+          "Value": "MyBooks.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eHjoVbWzk6KE80vtKl6A1U0F3tbwx/vA4pr1CYuau4A="
+        }
+      ]
+    },
+    {
       "Route": "MyBooks.bundle.scp.css",
       "AssetFile": "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyBooks.bundle.scp.css",
       "Selectors": [],
@@ -6251,7 +6341,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1125"
+          "Value": "1148"
         },
         {
           "Name": "Content-Type",
@@ -6259,11 +6349,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T5zHNOuP9MrDInLmi+56vIqwR0WqNtwZIJN0wvQ7UDI=\""
+          "Value": "\"eHjoVbWzk6KE80vtKl6A1U0F3tbwx/vA4pr1CYuau4A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 21:47:55 GMT"
+          "Value": "Sat, 19 Jul 2025 06:56:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6273,7 +6363,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T5zHNOuP9MrDInLmi+56vIqwR0WqNtwZIJN0wvQ7UDI="
+          "Value": "sha256-eHjoVbWzk6KE80vtKl6A1U0F3tbwx/vA4pr1CYuau4A="
         }
       ]
     },
@@ -6288,7 +6378,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1125"
+          "Value": "1148"
         },
         {
           "Name": "Content-Type",
@@ -6296,11 +6386,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T5zHNOuP9MrDInLmi+56vIqwR0WqNtwZIJN0wvQ7UDI=\""
+          "Value": "\"eHjoVbWzk6KE80vtKl6A1U0F3tbwx/vA4pr1CYuau4A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 21:47:55 GMT"
+          "Value": "Sat, 19 Jul 2025 06:56:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6310,97 +6400,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T5zHNOuP9MrDInLmi+56vIqwR0WqNtwZIJN0wvQ7UDI="
-        }
-      ]
-    },
-    {
-      "Route": "MyBooks.t5iz9583ct.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyBooks.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1125"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"T5zHNOuP9MrDInLmi+56vIqwR0WqNtwZIJN0wvQ7UDI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 21:47:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "t5iz9583ct"
-        },
-        {
-          "Name": "label",
-          "Value": "MyBooks.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-T5zHNOuP9MrDInLmi+56vIqwR0WqNtwZIJN0wvQ7UDI="
-        }
-      ]
-    },
-    {
-      "Route": "MyBooks.t5iz9583ct.styles.css",
-      "AssetFile": "C:\\Users\\Yemzzy\\Desktop\\Adeyemi\\CPA\\3rd year\\1st Semester\\C#\\Learn\\ProjectBasics\\MyBooks\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MyBooks.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1125"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"T5zHNOuP9MrDInLmi+56vIqwR0WqNtwZIJN0wvQ7UDI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 21:47:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "t5iz9583ct"
-        },
-        {
-          "Name": "label",
-          "Value": "MyBooks.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-T5zHNOuP9MrDInLmi+56vIqwR0WqNtwZIJN0wvQ7UDI="
+          "Value": "sha256-eHjoVbWzk6KE80vtKl6A1U0F3tbwx/vA4pr1CYuau4A="
         }
       ]
     }

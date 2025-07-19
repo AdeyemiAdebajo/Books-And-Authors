@@ -1,7 +1,10 @@
 html {
   font-size: 14px;
+  position: relative;
+  min-height: 100%;
 
 }
+
 p{
   font-size: 20px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -11,6 +14,9 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
   html {
     font-size: 16px;
   }
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    text-align: center;}
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -18,10 +24,24 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 
 html {
-  position: relative;
+  /* position: relative; */
   min-height: 100%;
 }
 
 body {
   margin-bottom: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:white;
+}
+h1, h2, h3 {
+  font-weight: 600;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+  text-align: center;
+  
 }
