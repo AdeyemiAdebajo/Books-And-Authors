@@ -31,7 +31,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-// C:\Users\Yemzzy\Desktop\CPA\3rd year\1st Semester\C#\Learn\Publish\PublishMyBooks
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
