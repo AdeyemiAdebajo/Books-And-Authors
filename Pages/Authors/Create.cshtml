@@ -34,15 +34,24 @@
                 <span asp-validation-for="Author.Isbn" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                
+                @* <input type="submit" value="Create" class="btn btn-primary" /> *@
             </div>
-        </form>
-    </div>
-</div>
-
-<div>
+        </form><br/>
+        @* <p class="btn btn-danger">Note: No new information can be added</p> *@
+        <input type="submit" value="Create" class="btn btn-primary" />
+        <div>
     <a asp-page="Index">Back to List</a>
 </div>
+
+    </div>
+    <p class="btn btn-danger"> No new information can be added</p>
+</div>
+
+@* <div>
+    <a asp-page="Index">Back to List</a>
+</div> *@
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

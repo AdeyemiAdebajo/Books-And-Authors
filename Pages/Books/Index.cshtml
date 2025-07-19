@@ -47,9 +47,9 @@
                 @Html.DisplayFor(modelItem => item.Published)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.BookId">Edit</a> |
+                @* <a asp-page="./Edit" asp-route-id="@item.BookId">Edit</a> | *@
                 <a asp-page="./Details" asp-route-id="@item.BookId">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.BookId">Delete</a>
+                @* <a asp-page="./Delete" asp-route-id="@item.BookId">Delete</a> *@
             </td>
         </tr>
 }
