@@ -25,5 +25,5 @@ This demo site is designed to showcase how you can manage a virtual library syst
 - Razor Pages (Frontend Views)
 - Bootstrap (Styling)
 
-## Getting Started
+
 
